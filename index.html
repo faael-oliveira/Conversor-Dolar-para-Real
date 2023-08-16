@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+    <img src="assets/logo.gif" alt="logo-conversor" class="img-logo">
+    <div class="container">
+        <div>
+            <p class="p-container">Converter <strong>de</strong></p>
+            <select class="moedas-1">
+                <option value="dolar">U$ Dólar Americano</option>
+            </select>
+        </div>
+        <div>
+            <p class="p-container">Converter <strong>para</strong></p>
+            <select class="moedas-2">
+                <option value="real">R$ Real Brasileiro</option>
+            </select>
+        </div>
+        <div>
+            <p class="p-container"><strong>Valor</strong></p>
+            <input class="input-currency" placeholder="Digite o valor">
+        </div>
+        <button class="convert-button">Converter</button>
+        <!-- Se der pau no JS colocar cada moeda eu uma div -->
+        <div class="result">
+            <img src="assets/dolar.png" alt="dolar" class="result-img-2">
+            <p id="currency-name-2" class="result-extenso-2">Dolár Americano</p>
+            <p class="result-value-1">U$ 0,00</p>
+
+            <img src="assets/arrow.png" alt="arrow" class="result-img">
+            
+            <img src="assets/real.png" alt="real" class="result-img-1">
+            <p id="currency-name-1" class="result-extenso-1">Real Brasileiro</p>
+            <p class="result-value-2">R$ 0,00</p>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
