@@ -29,14 +29,14 @@ function converterValues() {
         currencyValueToConverted.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
             currency: "GBP"
-        }).format(inputCurrencyValue / dolarToday)
+        }).format(inputCurrencyValue / libraToday)
     }
 
     if (currencySelect.value == "bitcoin") {
         currencyValueToConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
-        }).format(inputCurrencyValue / dolarToday)
+        }).format(inputCurrencyValue / bitcoinToday)
     }
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
