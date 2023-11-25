@@ -1,14 +1,14 @@
 # Conversor de Moedas
 
-Bem-vindo ao Conversor de Moedas! Esta é uma aplicação web minimalista que permite a conversão instantânea entre dólar americano (USD) e real brasileiro (BRL). A aplicação é desenvolvida em HTML, CSS e JavaScript, oferecendo uma experiência de usuário simples e intuitiva.
+Bem-vindo ao Conversor de Moedas! Esta é uma aplicação web minimalista que permite a conversão instantânea entre Real Brasileiro (BRL) para Dolar Americano (USB), Euro (EUR), Libra (GBP) e Bitcoin (BTC). A aplicação é desenvolvida em HTML, CSS e JavaScript, oferecendo uma experiência de usuário simples e intuitiva.
 
 ## Demonstração Ao Vivo
 
-[Clique Aqui!](https://faael-oliveira.github.io/Conversor-Dolar-para-Real/)
+[Clique Aqui!](https://faael-oliveira.github.io/Conversor-de-Moedas/)
 
 ## Funcionalidades
 
-- Conversão rápida entre dólar americano (USD) e real brasileiro (BRL).
+- Conversão rápida entre moedas.
 - Interface amigável e responsiva.
 - Utilização de fontes do Google para uma aparência agradável.
 
